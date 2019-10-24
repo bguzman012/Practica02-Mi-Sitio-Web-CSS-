@@ -1,0 +1,25 @@
+body {
+    margin: 0.5px;
+  }
+  .menu {
+    width: 10%;
+    float:left;
+    min-width: 120px;
+    padding:2%;
+    
+  }
+  .contenido {
+    width: 80%;
+    float: left;
+    max-width:-moz-calc(92% - 120px);
+    max-width:-webkit-calc(92% - 120px);
+    max-width:calc(92% - 120px);
+    padding:2%;
+  }
+  header {   
+    clear: top;
+  }
+  footer {
+    clear:both;
+    text-align:center;
+  }
