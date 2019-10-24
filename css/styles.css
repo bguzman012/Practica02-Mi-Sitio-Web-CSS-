@@ -1,0 +1,74 @@
+body{
+    background-color: turquoise;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+.cabecera >img{
+
+    max-height: fit-content;
+    max-width: fit-content;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+    color: rgb(70, 55, 55);
+}
+
+
+#titulo {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+}
+
+p > b {
+    color: red ;
+
+}
+
+h3 {
+    text-align: justify;
+    font-size: 23px;
+    font-family: 'Times New Roman';
+}
+
+nav {
+    font-size: 0.9em;
+  }
+  
+  nav > ul {
+    line-height: 2em;
+    list-style-type: none;
+    padding-left: 5px;
+  }
+  
+  nav > ul > li > a:link,
+  nav > ul > li > a:visited {
+    color: rgb(49, 49, 48);
+    text-decoration: none;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+  }
+  
+  nav > ul > li > a:hover,
+  nav > ul > li > a:active {
+    color: blue;
+    text-decoration: underline;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+  }
