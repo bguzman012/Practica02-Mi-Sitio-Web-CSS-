@@ -1,67 +1,30 @@
 body{
-    background-color: turquoise;
+    background-color: #40d4e096;
 }
-
-p{
-    text-align: justify;
-    font-size: 20px;
-    font-family: 'Times New Roman';
-}
-
-.cabecera >img{
-
-    max-height: fit-content;
-    max-width: fit-content;
-    border-radius: 20px;
-    height: 100%;
-    width: 100%;
-}
-
-.logo{
-    text-align: center;
     
-}
-
-footer{
-    text-align: center;
-    color: rgb(70, 55, 55);
-}
-
-
-#titulo {
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Times New Roman';
-}
-
-p > b {
-    color: red ;
-
-}
-
-h3 {
+  h3 {
     text-align: justify;
     font-size: 23px;
-    font-family: 'Times New Roman';
-}
-
-nav {
+    font-family: 'Maven Pro','sans-serif','serif';
+  }
+  
+  nav {
     font-size: 0.9em;
   }
   
   nav > ul {
     line-height: 2em;
     list-style-type: none;
-    padding-left: 5px;
+    padding-left: 5%;
   }
   
   nav > ul > li > a:link,
   nav > ul > li > a:visited {
-    color: rgb(49, 49, 47);
+    color: blanchedalmond;
     text-decoration: none;
     text-align: justify;
-    font-size: 20px;
-    font-family: 'Times New Roman';
+    font-size: 120%;
+    font-family: 'Maven Pro','sans-serif','serif';
   }
   
   nav > ul > li > a:hover,
@@ -72,3 +35,79 @@ nav {
     font-size: 20px;
     font-family: 'Times New Roman';
   }
+
+.listas {
+    background-color: #000000b5;
+    width: 6%;
+    float:left;
+    padding:2%;
+    border-radius: 10%;
+    min-width: min-content;
+    margin-left: 1.3%;
+  }
+
+p{
+    text-align: justify;
+    font-size: 120%;
+    font-family: 'Maven Pro','sans-serif','serif';
+    width: 100%;
+}
+
+.cabecera >img{
+
+max-height: fit-content;
+
+max-width: fit-content;
+
+height: 100%;
+
+width: 100%;
+}
+
+
+
+.cabecera{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: currentColor;
+    border-style: ridge;
+}
+
+#img_uno {
+    width: 50%;
+    height: 50%;
+  }
+
+.contenido > article  {
+    text-align: center;
+    padding: inherit;
+    margin-top: inherit;
+    margin-bottom: 5%;
+}
+
+#list_title {
+    color: bisque;
+}
+
+
+footer{
+    text-align: center;
+    color: darkslategrey;
+    font-size: 100%;
+    font-family: 'Maven Pro','sans-serif','serif';
+    background-color: ghostwhite;
+    width: inherit;
+    text-align: center;
+}
+
+
+#titulo {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Maven Pro','sans-serif','serif';
+}
+
+b {
+    color: #ff0000c7;
+}
