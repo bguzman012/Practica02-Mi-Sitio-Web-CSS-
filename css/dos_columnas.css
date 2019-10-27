@@ -7,7 +7,7 @@ header {
 }
 
 .contenido {
-  width: 83%;
+  width: 75%;
   float: left;
   margin-left: 4%;
 }
@@ -15,6 +15,17 @@ p{
   text-align: justify;
   font-size: 20px;
   font-family: cursive;
+}
+
+.listas {
+  background-color: #000000b5;
+  width: 6%;
+  float:left;
+  float:top;
+  padding:2%;
+  border-radius: 10%;
+  min-width: min-content;
+  margin: 5px;
 }
 
 .cabecera >img{
