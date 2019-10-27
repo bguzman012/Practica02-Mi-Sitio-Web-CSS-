@@ -151,3 +151,8 @@ background-color: currentColor;
 border-style: inset;
 border-radius: 20%;
 }
+
+#ps_plus{
+  background-color: blue;
+  border-style: inset;
+  }
