@@ -120,5 +120,20 @@ b {
     
 }
 
+.noticias{
+    background: #5f97a0d1;
+    border: solid;
+    margin: auto;
+    border-radius: 6%;
+}
 
+#parrafo_nots{
+    font-size: 90%;
+    font-style: italic;
+}
 
+#img_aside{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}

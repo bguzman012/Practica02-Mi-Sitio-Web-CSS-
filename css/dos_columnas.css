@@ -10,7 +10,7 @@ header {
 }
 p{
   text-align: justify;
-  font-size: 20px;
+  font-size: 105%;
   font-family: cursive;
 }
 
@@ -18,21 +18,12 @@ p{
   background-color: #000000b5;
   width: 6%;
   float:left;
-  float:top;
   padding:2%;
   border-radius: 10%;
   min-width: min-content;
-  margin: 5px;
+  margin: 1%;
 }
 
-.cabecera >img{
-
-  max-height: fit-content;
-  max-width: fit-content;
-  border-radius: 20px;
-  height: 100%;
-  width: 100%;
-}
 
 .logo{
   text-align: center;

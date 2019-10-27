@@ -1,0 +1,41 @@
+
+header {
+    clear: top;
+  }
+  
+  .contenido {
+    width: 60%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  p{
+    text-align: justify;
+    font-size: 105%;
+    font-family: 'Maven Pro','sans-serif','serif';
+  }
+  
+  .listas {
+    background-color: #000000b5;
+    width: 6%;
+    float:left;
+    padding:2%;
+    border-radius: 10%;
+    min-width: min-content;
+    margin: 1%;
+  }
+  
+  
+  .logo{
+    text-align: center;
+    
+  }
+  
+  footer{
+    clear: both;
+  }
+  
+  .noticias{
+      float: left;
+      width: 13%;
+  }
