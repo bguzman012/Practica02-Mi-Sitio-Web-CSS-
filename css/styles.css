@@ -49,18 +49,11 @@ p{
     width: 100%;
 }
 
-.cabecera >img{
-
-max-height: fit-content;
-
-max-width: fit-content;
-
-height: 100%;
-
-width: 100%;
+#foto_principal{
+    border-radius: 30%;
+    height: 100%;
+    width: 100%;
 }
-
-
 
 .cabecera{
     text-align: center;
