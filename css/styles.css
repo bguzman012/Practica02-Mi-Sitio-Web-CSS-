@@ -157,3 +157,9 @@ border-radius: 20%;
   background-color: blue;
   border-style: inset;
   }
+
+article.formulario{
+  border-color: darkslateblue;
+  border-style: groove;
+  padding: 5%;
+}  

@@ -34,3 +34,12 @@ footer{
   clear: both;
 }
 
+
+#formu {
+  margin: 0 auto;
+  float: left;
+  width: 60%;
+  padding: 10%;
+}
+
+
