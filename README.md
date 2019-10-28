@@ -1,4 +1,3 @@
-# Practica02-Mi-Sitio-Web-CSS-
 RESULTADO(S) OBTENIDO(S):
 Se ha creado un archivo principal index.html el cual va a ser el principal. La navegabilidad entre diferentes paginas del sitio web se ha obtenido de la siguiente manera:
 <section class="listas">
@@ -236,12 +235,8 @@ Tres_columnas.css
 Styles.css
  
 En el informe se debe incluir la información de GitHub (usuario y URL del repositorio de la práctica) 
-Usuario: bguzman012
+Usuario: bguzman012	
 Link: https://github.com/bguzman012/Practica02-Mi-Sitio-Web-CSS
 Tutorial
 Usuario: bguzman012
 Link: https://github.com/bguzman012/Tutorial-02---1TriAndSuccedSports
-
-
-
-
