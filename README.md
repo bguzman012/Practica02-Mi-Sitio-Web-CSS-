@@ -1,27 +1,7 @@
 # Practica02-Mi-Sitio-Web-CSS-
-6. En el archivo README del repositorio debe constar la misma información del informe de resultados de la práctica que se indica en el siguiente punto.
-Se ha creado el repositorio en github, luego se ha clonado el repositorio creado para asi comenzar con el trabajo.
-El archivo index.html es el principal y aquí se realiza una breve introducción de lo que se va a tratar el sitio web. Se ha utilizado la siguiente estructura Html
-
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="css/dos_columnas.css">
-    <link type="text/css" rel="stylesheet" href="css/styles.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Play Station</title>
-</head>
-
-<body>
-    <header class="cabecera">
-        <a href="index.html">
-            <img id="foto_principal" src="images/main_logo.jpg" alt="PlayStation" />
-        </a>
-    </header>
-    <section class="listas">
+RESULTADO(S) OBTENIDO(S):
+Se ha creado un archivo principal index.html el cual va a ser el principal. La navegabilidad entre diferentes paginas del sitio web se ha obtenido de la siguiente manera:
+<section class="listas">
         <h1 id="list_title">Menu</h1>
         <nav>
             <ul>
@@ -35,68 +15,233 @@ El archivo index.html es el principal y aquí se realiza una breve introducción
             </ul>
         </nav>
     </section>
-    <section class="contenido">
-        <h1 id="titulo">LA GRANDEZA ESPERA</h1>
-        <article>
-            <h3>Play Station</h3>
-            <p> <b>PlayStation Network </b>, abreviado como <em> PSN </em>, es una plataforma desarrollada por Sony
-                Computer
-                Entertainment para la venta de contenidos digitales y el soporte del juego en línea accesible
-                mediante los sistemas <b>PlayStation 3, PSP, PlayStation 4, PS Vita y PlayStation Vita TV
-                    (PlayStation TV) </b> así como desde la web PlayStation.com. Desde el 2019 hay más de 94 millones
-                de usuarios registrados en PlayStation Network en todo el mundo. </p>
 
-            
-                <img class="images" src="images/logo2.jpg" alt="PlayStation_img" />
-            
-        </article>
-        <article>
-            <h3>Play Station 5</h3>
+Esa es la estructura básica, pero se ha utilizado Css para estructurar la forma de las columnas, colores, fuentes. 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/dos_columnas.css">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Play Station</title>
+</head>
+
+ 
+Para importar los archivos .css donde se encuentran los estilos, se ha puesto lo siguiente:
+
+<link type="text/css" rel="stylesheet" href="css/dos_columnas.css">
+
+Esto enlaza automáticamente los dos archivos.
+Se ha creado 3 archivos css: uno para la estructura de dos columnas, uno para la estructura de tres columnas y otro para los diferentes estilos.
+
+ 
+
+Para darle el estilo necesario se ha puesto a cada elemento del código html clases e ID, asi de esta forma se puede controlar las características de cada uno desde el archivo CSS.
+Estructura de dos columnas
+
+header {
+  clear: top;
+}
+
+.contenido {
+  width: 75%;
+  float: left;
+  margin-left: 4%;
+}
+p{
+  text-align: justify;
+  font-size: 105%;
+  font-family: cursive;
+}
+
+.listas {
+  background-color: #000000b5;
+  width: 6%;
+  float:left;
+  padding:2%;
+  border-radius: 10%;
+  min-width: min-content;
+  margin: 1%;
+}
+
+.logo{
+  text-align: center;
+  
+}
+
+footer{
+  clear: both;
+}
+
+#formu {
+  margin: 0 auto;
+  float: left;
+  width: 60%;
+  padding: 10%;
+}
+
+
+clear: top;  se ha utilizado para que la etiqueta header flote hacia arriba
+A la clase .listas que es la etiqueta <section Class: “listas”> se le ha dado una dimensión y se la ha otrogado que flote hacia la izquiera
+A la clase .contenido que es la etiqueta <section Class: “contenido”> se le ha dado una dimensión y se la ha otrogado que flote hacia la izquiera
+Se ha utilizado size relativos como el Porcentaje  para que no importe la resolución de la pantalla en la que se visualize la pagina
+Float: left;
+Width: 6%;
+Border-radius: 10%
+ 
+ 
+La estructura ha quedado asi al momento de implementar CSS
+Las etiquetas de títulos y subtitulos han sido implementadas de la siguiente forma
+#titulo hace referencia a la etiqueta h1
+#titulo {
+  text-align: center;
+  font-size: 170%;
+  font-family: 'Maven Pro','sans-serif','serif';
+  font-style: unset;
+  text-decoration: underline;
+  background-color: #0675d45c;
+  color: darkblue;
+  border-style: dashed;
+}
+
+h3 {
+  text-align: justify;
+  font-size: 135%;
+  font-family: 'Maven Pro','sans-serif','serif';
+}
+
+h4{
+  text-align: justify;
+  font-size: 125%;
+  font-family: 'Maven Pro','sans-serif','serif';
+}
+
+En la navegación de ha otorgado un tamaño relativo de margen y se ha dado un tque ovalado para la correcta realización de la practica
+Line-height: 200% de margen
+
+nav > ul {
+  line-height: 200%;
+  list-style-type: none;
+  padding-left: 5%;
+}
+
+.listas {
+  background-color: #000000b5;
+  width: 6%;
+  float:left;
+  padding:2%;
+  border-radius: 10%;
+  min-width: min-content;
+  margin: 1%;
+}
+
+Border-radius permite darle un toque ovalado a la sección donde se encuentra la lista de vanegacion
+ 
+
+El formulario se ha realizado en el archivo contacto.html de la siguiente forma
+<article class="formulario">
+
+            <p>Nombre: <input type="text" name="nombre" size=20></p>
+
+            <p>Correo : <input type="text" name="apellidos" size=20></p>
+
+            <p>Motivo: <input type="text" name="nacionalidad" size=20></p>
             <p>
-                Conforme pasan los días más detalles vamos conociendo de la nueva <b> PlayStation 5</b>, consola que
-                pinta para ser una de las mejores de Sony en su historia, y la cual por obvias razones será
-                incluso la consola más poderosa del fabricante japonés.
+                <button type="submit" name="enviar"> Enviar </button>
             </p>
-            <p>
-                Y en esta ocasión se han publicado datos concretos del poder que tendrá el procesador de la <b>
-                    PlayStation 5</b>,
-                el cual será construido por AMD.
-                <p>
-                    Sabemos que la PS5 vendrá con un procesador <b> Ryzen Zen 2 de 7nm con 8 núcleos y 16 hilos
-                        corriendo
-                        a 3.2 GHz</b>, el cual para entender el por qué es tan poderoso y por qué decimos que el salto
-                    entre
-                    una generación y otra es enorme, es porque el procesador de la PS4 es un AMD x86 con
-                    microarquitectura
-                    Jaguar de 28nm y 8 núcleos a 1.6 GHz, mientras que el del PS4 Pro es exactamente el mismo, pero con
-                    una
-                    velocidad de reloj de 2.13 GHz.
-                </p>
-                <p>
-                    Estamos hablando de que la arquitectura del nuevo procesador ha avanzado tanto que ni siquiera
-                    baja a la mitad de nanómetros (que serían 14 nanómetros), sino que se reduce en más del doble,
-                    ya que tendremos un procesador construido bajo los 7 nanómetros que además tiene una potencia
-                    de 3.2 GHz, lo que significa que será un 60% más poderoso que el procesador del PS4, y un 40%
-                    más potente que el de la versión Pro.
-                </p>
-                <p>
-                    Pero es justamente parte de este poder con el que se habla de que esta consola eliminará los
-                    tiempos de carga de los juegos, incluirá <b>Ray Tracing</b> y podrá correr juegos hasta en 8K,
-                    aunque
-                    es probable que la mayoría de los títulos de PS5 vengan en 4K pero se haga un reescalado a 8K
-                    en los equipos compatibles con este formato.
-                </p>
-
-                <img class="images" src="images/ps5.jpg" alt="PlayStation5" />
         </article>
-    </section>
-    <footer>
-        <em>Copyright &copy; </em>Bryam Wilson Guzman Cabrera &#8226; Universidad Politecnica Salesiana &#8226;
-        <a href="mailto:bguzmanc@est.ups.edu.ec"> bguzmanc@est.ups.edu.ec</a> &#8226;
-        <a href="tel:+593968420404">(+593) 96 842 0404</a>
-    </footer>
-</body>
-</html>
+
+Donde se escribe la palabra antes del imput va un tipo label 
+<input> sirve para crear cajas de texto
+<button>  para crear el botón
+El resultado es el siguiente:
+ 
+Estructura de tres columnas:
+
+header {
+    clear: top;
+  }
+  
+  .contenido {
+    width: 60%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .listas {
+    background-color: #000000b5;
+    width: 6%;
+    float:left;
+    padding:2%;
+    border-radius: 10%;
+    min-width: min-content;
+    margin: 1%;
+  }
+  
+  
+  .logo{
+    text-align: center;
+    
+  }
+  
+  footer{
+    clear: both;
+  }
+  
+  .noticias{
+      float: left;
+      width: 13%;
+  }
+
+Se ha creado un <header> que va en la parte alta; una <section> donde se encuentra la lista de navegación y un <aside> donde va la columna de promociones; el contenido neto de la pagina se encuentra en el medio en una <section> <article> <p>; en la parte derecha se ha colocado una <section> con <aside> de noticas random.
+El resultado obtenido ha sido el siguiente:
+ 
+ 
+Evidencia de la validación de cada pagina creada:
+Index.html
+ 
+ 
+Juegos.html
+ 
+ 
+
+Hardware.html
+ 
+
+ 
+ 
+
+Noticias.html
+ 
+ 
+ 
+Tienda.html
+ 
+ 
+ 
+Ps_plus.html
+ 
+ 
+ 
+Contacto.html
+ 
+ 
+
+Validar Pagina Css
+Dos_columnas.css
+ 
+Tres_columnas.css
+ 
+Styles.css
+ 
+En el informe se debe incluir la información de GitHub (usuario y URL del repositorio de la práctica) 
+Usuario: bguzman012
+Link: https://github.com/bguzman012/Practica02-Mi-Sitio-Web-CSS
+Tutorial
+Usuario: bguzman012
+Link: https://github.com/bguzman012/Tutorial-02---1TriAndSuccedSports
+
 
 
 
