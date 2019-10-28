@@ -1,1 +1,102 @@
 # Practica02-Mi-Sitio-Web-CSS-
+6. En el archivo README del repositorio debe constar la misma información del informe de resultados de la práctica que se indica en el siguiente punto.
+Se ha creado el repositorio en github, luego se ha clonado el repositorio creado para asi comenzar con el trabajo.
+El archivo index.html es el principal y aquí se realiza una breve introducción de lo que se va a tratar el sitio web. Se ha utilizado la siguiente estructura Html
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/dos_columnas.css">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Play Station</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <a href="index.html">
+            <img id="foto_principal" src="images/main_logo.jpg" alt="PlayStation" />
+        </a>
+    </header>
+    <section class="listas">
+        <h1 id="list_title">Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="accesorios/juegos.html">Juegos</a></li>
+                <li><a href="accesorios/hardware.html">Hardware</a></li>
+                <li><a href="general/noticias.html">Noticias</a></li>
+                <li><a href="accesorios/tienda.html">Tienda</a></li>
+                <li><a href="general/ps_plus.html">Ps Plus</a></li>
+                <li><a href="contacto/contacto.html">Contactanos</a></li>
+                
+            </ul>
+        </nav>
+    </section>
+    <section class="contenido">
+        <h1 id="titulo">LA GRANDEZA ESPERA</h1>
+        <article>
+            <h3>Play Station</h3>
+            <p> <b>PlayStation Network </b>, abreviado como <em> PSN </em>, es una plataforma desarrollada por Sony
+                Computer
+                Entertainment para la venta de contenidos digitales y el soporte del juego en línea accesible
+                mediante los sistemas <b>PlayStation 3, PSP, PlayStation 4, PS Vita y PlayStation Vita TV
+                    (PlayStation TV) </b> así como desde la web PlayStation.com. Desde el 2019 hay más de 94 millones
+                de usuarios registrados en PlayStation Network en todo el mundo. </p>
+
+            
+                <img class="images" src="images/logo2.jpg" alt="PlayStation_img" />
+            
+        </article>
+        <article>
+            <h3>Play Station 5</h3>
+            <p>
+                Conforme pasan los días más detalles vamos conociendo de la nueva <b> PlayStation 5</b>, consola que
+                pinta para ser una de las mejores de Sony en su historia, y la cual por obvias razones será
+                incluso la consola más poderosa del fabricante japonés.
+            </p>
+            <p>
+                Y en esta ocasión se han publicado datos concretos del poder que tendrá el procesador de la <b>
+                    PlayStation 5</b>,
+                el cual será construido por AMD.
+                <p>
+                    Sabemos que la PS5 vendrá con un procesador <b> Ryzen Zen 2 de 7nm con 8 núcleos y 16 hilos
+                        corriendo
+                        a 3.2 GHz</b>, el cual para entender el por qué es tan poderoso y por qué decimos que el salto
+                    entre
+                    una generación y otra es enorme, es porque el procesador de la PS4 es un AMD x86 con
+                    microarquitectura
+                    Jaguar de 28nm y 8 núcleos a 1.6 GHz, mientras que el del PS4 Pro es exactamente el mismo, pero con
+                    una
+                    velocidad de reloj de 2.13 GHz.
+                </p>
+                <p>
+                    Estamos hablando de que la arquitectura del nuevo procesador ha avanzado tanto que ni siquiera
+                    baja a la mitad de nanómetros (que serían 14 nanómetros), sino que se reduce en más del doble,
+                    ya que tendremos un procesador construido bajo los 7 nanómetros que además tiene una potencia
+                    de 3.2 GHz, lo que significa que será un 60% más poderoso que el procesador del PS4, y un 40%
+                    más potente que el de la versión Pro.
+                </p>
+                <p>
+                    Pero es justamente parte de este poder con el que se habla de que esta consola eliminará los
+                    tiempos de carga de los juegos, incluirá <b>Ray Tracing</b> y podrá correr juegos hasta en 8K,
+                    aunque
+                    es probable que la mayoría de los títulos de PS5 vengan en 4K pero se haga un reescalado a 8K
+                    en los equipos compatibles con este formato.
+                </p>
+
+                <img class="images" src="images/ps5.jpg" alt="PlayStation5" />
+        </article>
+    </section>
+    <footer>
+        <em>Copyright &copy; </em>Bryam Wilson Guzman Cabrera &#8226; Universidad Politecnica Salesiana &#8226;
+        <a href="mailto:bguzmanc@est.ups.edu.ec"> bguzmanc@est.ups.edu.ec</a> &#8226;
+        <a href="tel:+593968420404">(+593) 96 842 0404</a>
+    </footer>
+</body>
+</html>
+
+
+
