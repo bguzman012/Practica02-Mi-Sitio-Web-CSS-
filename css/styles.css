@@ -44,8 +44,9 @@ nav > ul > li > a:active {
 
 p{
   text-align: justify;
-  font-size: 120%;
+  font-size: 105%;
   font-family: 'Maven Pro','sans-serif','serif';
+  text-align: justify;
   width: 100%;
 }
 
